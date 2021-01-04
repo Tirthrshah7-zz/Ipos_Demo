@@ -1,0 +1,204 @@
+.checkout {
+  padding-bottom: 80px;
+  @media (max-width:767px) {
+    padding-bottom: 50px;  
+  }
+  .checkout-inner {
+    .checkout-info-title {
+      font-size: 24px;
+      @media (max-width:991px) {
+        font-size: 20px;  
+      }
+      @media (max-width:767px) {
+        font-size: 18px;  
+      }
+    } 
+    .checkout-info-price {
+      font-size: 24px;
+      @media (max-width:991px) {
+        font-size: 20px;  
+      }
+      @media (max-width:767px) {
+        font-size: 18px;  
+      }
+    }
+    .remove-btn {
+      font-size: 19px;
+      @media (max-width:991px) {
+        font-size: 18px;  
+      }
+      @media (max-width:767px) {
+        font-size: 16px;  
+      }
+    }
+
+    .shop4-wrapper {
+      &.w-50 {
+        @media (max-width:991px) {
+          width: 30%!important;
+        }
+      }
+      .form-control {
+        font-size: 24px;
+        @media (max-width:991px) {
+          font-size: 20px;  
+        }
+        @media (max-width:767px) {
+          font-size: 18px;  
+        }
+      }
+    }
+
+    .total-text {
+      font-size: 19px;
+      @media (max-width:767px) {
+        font-size: 18px;  
+      }
+    }
+
+    .promo-area {
+      .form-control {
+        max-width: 250px;
+        padding: .575rem 4.5rem .575rem 1.5rem;
+        @media (max-width:575px) {
+          max-width: 180px;
+          padding: .575rem 3.5rem .575rem 0.8rem;
+        }
+      }
+      label {
+        @media (max-width:575px) {
+          left: 15px !important;
+        }
+      }
+      .shop4__apply {
+        font-size: 19px;
+        @media (max-width:767px) {
+          font-size: 16px;  
+        }
+      }
+      .shop4__cancel {
+        font-size: 19px;
+        @media (max-width:767px) {
+          font-size: 16px;  
+        }
+      }
+    }
+  }
+  .check-form-title {
+    font-size: 24px;
+    @media (max-width:991px) {
+      font-size: 22px;
+    }
+    @media (max-width:767px) {
+      font-size: 18px;
+    }
+  }
+  .checkout-title {
+    font-size: 34px;
+    margin-bottom: 40px;
+    @media (max-width:991px) {
+      font-size: 30px;
+    }
+    @media (max-width:767px) {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+  }
+  .checkout-address {
+    font-size: 24px;
+    @media (max-width:991px) {
+      font-size: 22px;
+    }
+    @media (max-width:767px) {
+      font-size: 18px;
+    }
+  }
+
+  .payment-area {
+    .nav-link {
+      font-size: 16px;
+      color: #1d1d1f;
+      font-weight: 700;
+      text-align: center;
+      padding: 25px 15px;
+      border: #e5e5e5 1px solid;
+      border-radius: 5px;
+      @media (max-width:991px) {
+        font-size: 15px;
+      }
+      @media (max-width:360px) {
+        font-size: 14px;
+        padding: 20px 8px;
+      }
+      &.active {
+        border-color: #2383cf;
+        border-width: 2px;
+      }
+    }
+
+    .pay-financing {
+      .financing-work {
+        margin-bottom: 30px;
+        h5 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+
+    .card-info {
+      position: relative;
+      &:before{
+				content: '';
+				background: url(/assets/shop/shop5/card.png) no-repeat;
+				background-size: 100%;
+				width: 150px;
+				height: 22px;
+				position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+      }
+      .form-control {
+        padding-right: 10.5rem;
+      }
+    }
+  }
+}
+
+.check-btn {
+  max-width: 300px;
+  width: 100%;
+  padding: .5rem 1rem;
+}
+
+.select-card-area {
+  .form-control {
+    color: #1d1d1f !important;
+    font-weight: 600;
+    height: calc(4.25rem + 2px) !important;
+    padding: .175rem 1.5rem .575rem 1.5rem !important;
+  }
+  .down-arrow:after {
+    top: 25px;
+  }
+  .select-text {
+    font-size: 13px;
+    color: #505050;
+    line-height: 14px;
+    position: absolute;
+    left: 31px;
+    top: 45px;
+  }
+}
+
+
+.create-account {
+  padding-top: 70px;
+  @media (max-width:767px) {
+    padding-top: 50px;  
+  }
+}

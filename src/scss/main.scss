@@ -1,0 +1,95 @@
+@import "./abstract/mixins";
+@import "./abstract/variables";
+
+@import "./base/base";
+@import "./base/colors";
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/utilities";
+
+@import "./components/buttons";
+@import "./components/inputs";
+
+@import "./components/footer";
+
+// @import './pages/index';
+@import "./pages/index_change";
+@import "./pages/_owl-carousel";
+
+@import "./pages/bar";
+@import "./pages/book-demo";
+@import "./pages/career";
+@import "./pages/case-study";
+@import "./pages/case-study-detail";
+@import "./pages/coffee";
+@import "./pages/login";
+@import "./pages/partner-program";
+@import "./pages/terms-conditions";
+@import "./pages/testimonials";
+@import "./pages/shop1";
+@import "pages/shop2";
+@import "pages/shop3";
+@import "pages/shop4";
+@import "pages/shop5";
+@import "pages/select-stand";
+@import "pages/email-verification-popup";
+
+@import "./pages/features";
+@import "./pages/features_pointof_sale";
+@import "./pages/features-customerMGT";
+@import "./pages/features_employeeMGT";
+@import "./pages/features_emp_scheduling";
+@import "./pages/feature_indigridentMGT";
+@import "./pages/feature_indigridentMGT2";
+@import "./pages/feature_inventory";
+@import "./pages/feature_speedy_interface";
+@import "./pages/feature_tableMGT";
+@import "./pages/feature_of_payment";
+
+@import "./pages/feature_accountintegration";
+@import "./pages/feature_digitalmenu";
+
+@import "./pages/feature_apporder";
+@import "./pages/feature_grow_business";
+@import "./pages/feature_ipos_kisok_order";
+@import "./pages/feature_kitchenmanagement";
+@import "./pages/feature_online_ordering";
+@import "./pages/feature_order-delivery";
+@import "./pages/feature_payattable";
+@import "./pages/feature_payroll";
+@import "./pages/feature_reporting";
+@import "./pages/restaurant_online_ordering";
+
+@import "./pages/blog";
+@import "./pages/blog-details";
+@import "./pages/blog-list-slider";
+
+@import "./pages/font-awesome";
+@import "./pages/owl-carousel";
+@import "./pages/accordion";
+
+@import "./pages/inner01";
+@import "./pages/iWeb-online-ordering";
+@import "./pages/olobuddy-delivery-service";
+@import "./pages/iKiosk";
+@import "./pages/inner05";
+@import "./pages/mobile-solution";
+@import "./pages/special-offer";
+
+@import "./pages/questionnaire";
+@import "./pages/contacts";
+
+@import "./pages/bakery";
+@import "./pages/salon";
+@import "./pages/retail";
+@import "./pages/pizzeria";
+@import "./pages/business";
+@import "./pages/food_truck";
+@import "./pages/jewellery";
+@import "./pages/grocery";
+@import "./pages/fashion_boutique";
+@import "./pages/hospital";
+@import "./pages/convenience";
+@import "./pages/carwash";
+
+@import "./pages/homepage";

@@ -1,0 +1,98 @@
+.banner {
+	&-sec {
+        .banner-content {
+            &.banner__content--customerMGT {
+                padding-top: 230px;
+                padding-bottom: 220px;
+                @media (max-width: 1440px) {
+                    padding-top: 180px;
+                    padding-bottom: 180px;
+                }
+                @media (max-width: 991px) {
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                }
+                @media (max-width: 767px) {
+                    padding-top: 200px;
+                    padding-bottom: 50px;
+                }
+            }
+        }
+		
+		&.banner__img--customerMGT {
+			overflow: hidden;
+			&:before{
+				content: '';
+				background: url(/assets/features/customer_MGT/customer_banner.png) no-repeat;
+				background-size: 100%;
+				width: 900px;
+				height: 717px;
+				position: absolute;
+				right: 0;
+				bottom: -50px;
+				@media (max-width: 1800px) {
+					width: 700px;
+                    height: 680px;
+                    bottom: -20px;
+				}
+				@media (max-width: 1440px) {
+					width: 680px;
+                    height: 550px;
+				}
+				@media (max-width:1280px) {
+					width: 600px;
+                    height: 520px;
+				}
+				@media (max-width: 1199px) {
+					width: 500px;
+                    height: 460px;
+				}
+				@media (max-width: 991px) {
+					width: 400px;
+                    height: 360px;
+                    right: -20px;
+				}
+				@media (max-width: 767px) {
+					width: 260px;
+                    height: 210px;
+					left: 50%;
+					top: 70px;
+					right: auto;
+					bottom: auto;
+                    transform: translateX(-50%);
+                    margin-left: 20px;
+				}
+			}
+		}
+	}
+}
+
+
+.customer-management-sec{
+    .sub-title-xl {
+        font-size: 28px !important;
+        line-height: 32px;
+        @media (max-width: 1199px) {
+            font-size: 22px !important;
+            line-height: 28px;
+        }
+        @media (max-width: 767px) {
+            font-size: 18px !important;
+            line-height: 24px;
+        }
+    } 
+    .book-demo-img {
+        height: 80px;
+        @media (max-width: 991px) {
+            height: 60px;    
+        }
+    }
+    .book-demo-box {
+        .book-demo-title {
+            @media (max-width: 991px) {
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+    } 
+}

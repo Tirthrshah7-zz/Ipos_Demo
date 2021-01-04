@@ -1,0 +1,79 @@
+.ipos-id {
+    .mail-icon {
+        i {
+            font-size: 64px;
+            @media (max-width:991px) {
+                font-size: 54px;
+            }
+            @media (max-width:767px) {
+                font-size: 44px;
+            }
+        }
+    }
+    .modal-title {
+        @media (max-width:767px) {
+            font-size: 22px;
+        }
+    }
+    .form-control {
+        font-size: 1.5rem;
+        color: #495057;
+        font-weight: 400;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        text-align: center;
+        @media (max-width:767px) {
+            font-size: 1.2rem;
+            width: 35px;
+            height: 35px;
+        }
+    }
+    .text-small {
+        line-height: 20px;
+    }
+    .btn {
+        min-width: 130px;
+    }
+    .btn-cancel {
+        background-color: #fff;
+        color: #0070c9;
+        border: #c0c0c0 1px solid;
+        padding: .6rem 1rem;
+        border-radius: 3px;
+        &:hover {
+            background-color: #888888;
+            color: #fff;
+            border-color: #888888;
+        }
+    }
+    .btn-submit {
+        padding: .6rem 1rem;
+    }
+}
+
+
+.modal-id {
+    @media (min-width: 768px) {
+        max-width: 800px;
+    }
+
+    @media (min-width:768px) and (max-width:991px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+
+.popover {
+    background-color: #f2f2f2;
+    text-align: center;
+    border: none;
+}
+.bs-popover-top>.arrow::before {
+    border-top-color: #f2f2f2;
+}
+.bs-popover-top>.arrow::after {
+    border-top-color: #f2f2f2;
+}

@@ -1,0 +1,53 @@
+.inquiry-form .promocode__field {
+  color: black !important;
+  border: 1px solid #d2d2d2;
+}
+.inquiry-form .promocode__field:focus {
+  color: black !important;
+}
+
+.shop4-wrapper {
+  position: relative;
+
+  &:after {
+    font-family: FontAwesome;
+    content: "\f107";
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    right: -8px;
+    color: $color-blue1;
+    pointer-events: none;
+  }
+}
+
+.shop4__apply {
+  position: absolute;
+  top: 12px;
+  left: 130px;
+  @media (max-width:767px) {
+    top: 15px;
+  }
+  @media (max-width:575px) {
+    left: 80px;
+  }
+}
+.shop4__cancel {
+  position: absolute;
+  top: 12px;
+  left: 250px;
+  @media (max-width:767px) {
+    top: 15px;
+  }
+  @media (max-width: 575px) {
+    left: 170px;
+  }
+}
+
+// .shop4__totalprice {
+//   @media (max-width: 575px) {
+//     position: absolute;
+//     top: -55px;
+//     left: 282px;
+//   }
+// }

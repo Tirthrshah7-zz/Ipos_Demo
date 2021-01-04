@@ -1,0 +1,625 @@
+.main-title {
+	font-family: "SF Pro Display";
+	font-size: 48px;
+	color: #1d1d1f;
+	font-weight: 600;
+	line-height: 52px;
+	@media (max-width: 1199px) {
+		font-size: 40px;
+		line-height: 44px;
+	}
+	@media (max-width: 991px) {
+		font-size: 38px;
+	}
+	@media (max-width: 767px) {
+		font-size: 34px;
+		line-height: 38px;
+	}
+	@media (max-width: 575px) {
+		font-size: 28px;
+		line-height: 32px;
+	}
+	@media (max-width: 360px) {
+		font-size: 24px;
+		line-height: 28px;
+	}
+}
+
+.second-title {
+	font-family: "SF Pro Display";
+	font-size: 35px;
+	color: #1d1d1f;
+	font-weight: 600;
+	line-height: 52px;
+	@media (max-width: 1199px) {
+		font-size: 40px;
+		line-height: 44px;
+	}
+	@media (max-width: 991px) {
+		font-size: 38px;
+	}
+	@media (max-width: 767px) {
+		font-size: 34px;
+		line-height: 38px;
+	}
+	@media (max-width: 575px) {
+		font-size: 28px;
+		line-height: 32px;
+	}
+	@media (max-width: 360px) {
+		font-size: 24px;
+		line-height: 28px;
+	}
+}
+
+p {
+	font-family: "SF Pro Text";
+	font-size: 19px;
+	color: #1d1d1f;
+	line-height: 26px;
+	@media (max-width: 767px) {
+		font-size: 18px;
+	}
+	&.sub-title {
+		font-family: "SF Pro Text";
+		font-size: 16px;
+		color: #1d1d1f;
+		line-height: 20px;
+		@media (max-width: 575px) {
+			font-size: 14px;
+			line-height: 18px;
+		}
+	}
+	&.sub-title-xl {
+		font-size: 34px !important;
+		line-height: 38px;
+		@media (max-width: 1440px) {
+			font-size: 30px !important;
+			line-height: 32px;
+		}
+		@media (max-width: 1199px) {
+			font-size: 24px !important;
+			line-height: 24px;
+		}
+		@media (max-width: 767px) {
+			font-size: 20px !important;
+			line-height: 20px;
+		}
+		@media (max-width: 575px) {
+			font-size: 16px !important;
+			line-height: 20px;
+		}
+	}
+}
+
+.pt-6,
+.py-6 {
+	padding-top: 4rem !important;
+}
+.pb-6,
+.py-6 {
+	padding-bottom: 4rem !important;
+}
+.pl-6,
+.px-6 {
+	padding-left: 4rem !important;
+}
+.pr-6,
+.px-6 {
+	padding-right: 4rem !important;
+}
+
+.pt-7,
+.py-7 {
+	padding-top: 5rem !important;
+}
+.pb-7,
+.py-7 {
+	padding-bottom: 5rem !important;
+}
+.pl-7,
+.px-7 {
+	padding-left: 5rem !important;
+}
+.pr-7,
+.px-7 {
+	padding-right: 5rem !important;
+}
+
+.mt-6,
+.my-6 {
+	margin-top: 4rem !important;
+}
+.mb-6,
+.my-6 {
+	margin-bottom: 4rem !important;
+}
+.ml-6,
+.mx-6 {
+	margin-left: 4rem !important;
+}
+.mr-6,
+.mx-6 {
+	margin-right: 4rem !important;
+}
+
+.mt-7,
+.my-7 {
+	margin-top: 5rem !important;
+}
+.mb-7,
+.my-7 {
+	margin-bottom: 5rem !important;
+}
+.ml-7,
+.mx-7 {
+	margin-left: 5rem !important;
+}
+.mr-7,
+.mx-7 {
+	margin-right: 5rem !important;
+}
+
+.slider-container {
+	max-width: 1340px !important;
+}
+
+.xl-container {
+	max-width: 1560px !important;
+	@media (max-width: 1440px) {
+		max-width: 1340px !important;
+	}
+}
+
+.xl-container2 {
+	max-width: 1760px !important;
+}
+
+.carousel {
+	margin: 0 auto;
+	padding: 0 70px;
+	@media (max-width: 767px) {
+		padding: 0 40px;
+	}
+	.carousel-inner {
+		border-bottom: rgba(134, 134, 139, 0.1) 1px solid;
+		padding-bottom: 50px;
+		margin-bottom: 30px;
+		@media (max-width: 767px) {
+			padding-bottom: 0;
+		}
+	}
+	.item {
+		overflow: hidden;
+		img {
+			width: 100%;
+		}
+	}
+	.carousel-control {
+		background-color: #f2f2f2;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		opacity: 1;
+		@media (max-width: 767px) {
+			width: 30px;
+			height: 30px;
+		}
+		i {
+			font-size: 36px;
+			color: rgba(162, 162, 162, 1);
+			display: inline-block;
+			position: absolute;
+			@media (max-width: 767px) {
+				font-size: 24px;
+			}
+		}
+		&:hover {
+			background-color: #efecec;
+			i {
+				color: rgba(142, 142, 142, 1);
+			}
+		}
+	}
+}
+
+.inquiry-form {
+	.form-group {
+		position: relative;
+		margin-bottom: 30px;
+		label {
+			font-size: 18px;
+			color: #7e7e7e;
+			position: absolute;
+			left: 25px;
+			top: 12px;
+			transition: all 0.4s ease;
+			-webkit-transition: all 0.4s ease;
+			@media (max-width: 767px) {
+				font-size: 16px;
+				top: 15px;
+			}
+		}
+		.form-control:focus ~ .input-highlight,
+		.form-control.hasValue ~ .input-highlight {
+			width: 100%;
+		}
+		.form-control:focus ~ label,
+		.form-control.hasValue ~ label {
+			font-size: 14px;
+			top: 0;
+		}
+	}
+}
+
+.owl-carousel-main {
+	.owl-nav {
+		display: none;
+	}
+
+	&.owl-theme {
+		.owl-dots {
+			margin-top: 30px;
+			.owl-dot {
+				span {
+					background: #dededf;
+					width: 13px;
+					height: 13px;
+					@media (max-width: 767px) {
+						width: 12px;
+						height: 12px;
+					}
+					@media (max-width: 575px) {
+						width: 10px;
+						height: 10px;
+						margin: 5px;
+					}
+				}
+				&.active,
+				&:hover {
+					span {
+						background: #a8a8ad;
+					}
+				}
+			}
+		}
+	}
+}
+
+.padd-y-sec {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	@media (max-width: 767px) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
+.border-left-top-round {
+	border-top-left-radius: 5px;
+}
+.border-left-bottom-round {
+	border-bottom-left-radius: 5px;
+}
+.border-right-top-round {
+	border-top-right-radius: 5px;
+}
+.border-right-bottom-round {
+	border-bottom-right-radius: 5px;
+}
+
+/*-------------- Media query css start ------------------*/
+.container {
+	@media (min-width: 1200px) {
+		max-width: 1170px;
+	}
+
+	@media (max-width: 768px) {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 991px) {
+	.md-text-left {
+		text-align: left !important;
+	}
+
+	.md-text-center {
+		text-align: center !important;
+	}
+
+	.md-d-block {
+		display: block !important;
+	}
+
+	.md-d-none {
+		display: none !important;
+	}
+
+	.md-w-100 {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.sm-text-left {
+		text-align: left !important;
+	}
+
+	.sm-text-center {
+		text-align: center !important;
+	}
+
+	.sm-d-block {
+		display: block !important;
+	}
+
+	.sm-d-none {
+		display: none !important;
+	}
+
+	.sm-w-100 {
+		width: 100% !important;
+	}
+
+	.sm-pt-4,
+	.sm-py-4 {
+		padding-top: 1.5rem !important;
+	}
+	.sm-pb-4,
+	.sm-py-4 {
+		padding-bottom: 1.5rem !important;
+	}
+	.sm-pl-4,
+	.sm-px-4 {
+		padding-left: 1.5rem !important;
+	}
+	.sm-pr-4,
+	.sm-px-4 {
+		padding-right: 1.5rem !important;
+	}
+}
+
+@media (max-width: 575px) {
+	.xs-text-left {
+		text-align: left !important;
+	}
+
+	.xs-text-center {
+		text-align: center !important;
+	}
+
+	.xs-d-block {
+		display: block !important;
+	}
+
+	.xs-d-none {
+		display: none !important;
+	}
+
+	.xs-w-100 {
+		width: 100% !important;
+	}
+}
+
+.video-modal .modal-content {
+	background-color: transparent;
+	border: none;
+}
+.video-modal .modal-header {
+	background: none;
+	padding: 0;
+	border: none;
+}
+.video-modal .modal-header .close {
+	padding: 0;
+	background-color: #fff;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	border-radius: 50%;
+	opacity: 1;
+	box-shadow: rgba(0, 0, 0, 0.5) 0 3px 5px;
+	z-index: 2;
+}
+.video-modal .modal-body {
+	padding: 0;
+}
+
+.video-modal .close:hover {
+	opacity: 1 !important;
+}
+
+.video-modal .modal-dialog {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.modal {
+	background-color: rgba(0, 0, 0, 0.7);
+	margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+	.video-modal .modal-dialog {
+		max-width: 700px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.video-modal .modal-dialog {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.video-modal .modal-header .close {
+		width: 25px;
+		height: 25px;
+		right: 5px;
+	}
+}
+
+.modal-open .modal {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1040;
+	display: none;
+	width: 100%;
+	height: 100%;
+	outline: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.modal-backdrop.in {
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+#continually-button[data-cxlayout="i"] #continually-button-icon {
+	background: {
+		image: asset-url("/assets/ic_chat/ic_chat.png");
+	}
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 36px;
+	width: 36px;
+}
+#continually-button[data-cxlayout="i"] #continually-button-icon img {
+	visibility: hidden;
+}
+
+.chat-main #continually-button {
+	background-color: #007df7 /*widget-color*/ !important;
+}
+
+// home page css
+.main-content {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		line-height: normal !important;
+	}
+	p {
+		line-height: 1.6 !important;
+	}
+	*:not(.fa) {
+		font-family: "SF Pro Display" !important;
+		color: $color-white;
+	}
+	.container-fluid {
+		@include respondMin(full-hd) {
+			max-width: 1920px;
+		}
+	}
+}
+
+.d-xs-none {
+	@include respondMax(xs-phone) {
+		display: none;
+	}
+}
+
+.border-rd {
+	&-50 {
+		border-radius: 50px;
+	}
+	&-30 {
+		border-radius: 30px;
+	}
+}
+
+.border-color-dark {
+	border-top: 1px solid $color-border;
+}
+.border-right {
+	border-right: 1px solid $color-gray2;
+}
+
+.title-main {
+	@include respondMax(xxl-full-desktop) {
+		font-size: 3.5rem; //52px
+	}
+	@include respondMax(hd-desktop) {
+		font-size: 2.75rem; //44px
+	}
+	@include respondMax(md-tab) {
+		font-size: 2.5rem; //40px
+	}
+	@include respondMax(sm-phone) {
+		font-size: 2.125rem; //34px
+	}
+}
+
+.title-md-main {
+	@include respondMax(xxl-full-desktop) {
+		font-size: 3rem; //48px
+	}
+	@include respondMax(hd-desktop) {
+		font-size: 2.375rem; //38px
+	}
+	@include respondMax(md-tab){
+		font-size: 2.25rem; //36px
+	}	
+	@include respondMax(sm-phone) {
+		font-size: 1.8125rem; //29px
+	}
+}
+
+.sub-header-main {
+	@include respondMax(sm-phone) {
+		font-size: 1.625rem; //26px
+	}
+}
+.sub-headline {
+	@include respondMax(xxl-desktop) {
+		font-size: 2.75rem; //44px
+	}
+	@include respondMax(xl-desktop) {
+		font-size: 2.5rem; //40px
+	}
+	@include respondMax(hd-desktop) {
+		font-size: 2.125rem;
+	}
+	@include respondMax(md-tab) {
+		font-size: 1.5rem; //27px
+	}
+	
+}
+.sub-headline-sm {
+	@include respondMax(hd-desktop) {
+		font-size: 1.75rem; //28px
+	}
+	@include respondMax(lg-tab) {
+		font-size: 1.5rem; //24px
+	}
+	@include respondMax(md-tab){
+		font-size: 1.375rem; //22px
+	}
+}
+.sub-inner-title {
+	@include respondMax(xxl-full-desktop) {
+		font-size: 1.5rem; //24px
+	}
+	@include respondMax(sm-phone) {
+		font-size: 1.25rem; //20px
+	}
+}

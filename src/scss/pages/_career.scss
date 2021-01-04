@@ -1,0 +1,35 @@
+.banner {
+	&-sec {
+        .banner-content {
+            &.banner__content--career {
+                padding-top: 60px;
+                @media (max-width: 767px) {
+                    padding-top: 50px;
+                }
+                .banner-sub-title{
+                    font-family: 'SF Pro Display';
+                    font-size: 34px;
+					line-height: 34px;
+					@media (max-width: 991px) {
+						font-size: 22px;
+						line-height: 22px;
+					}
+					@media (max-width: 767px) {
+						font-size: 19px;
+					}
+                }
+            }
+        }
+	}
+}
+
+.career {
+    &-sec {
+        padding-top: 60px;
+		padding-bottom: 60px;
+		@media (max-width: 767px) {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+    }
+}

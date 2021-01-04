@@ -1,0 +1,48 @@
+$color-darkgray1: #111111;
+$color-darkgray2: #1d1d1f;
+$color-darkgray3: #333333;
+$color-darkgray4:#070707;
+$color-darkgray5:#0E0E0E;
+$color-lightgray: #fdfdfd;
+$color-gray: #888888;
+$color-gray2: #8c8c8c;
+$color-gray3: #cfcfcf;
+$color-gray4:#6E6E73;
+$color-gray5:#ececec;
+$color-offwhite: #f5f5f7;
+$color-offwhite2: #fafafa;
+$color-offwhite-active:rgba(245,245,247,0.5);
+$color-blue1: #007aff;
+$color-blue2: #0070c9;
+$color-blue3: #0071e3;
+$color-blue4: #0066CC;
+$color-white:#ffffff;
+$color-border:#0C0C0C;
+$color-light-blue:#0686D3;
+$color-light-red: #D3123F;
+
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "white":        $color-white,
+    "darkgray1":    $color-darkgray1,
+    "darkgray2":    $color-darkgray2,
+    "darkgray3":    $color-darkgray3,
+    "darkgray4":    $color-darkgray4,
+    "darkgray5":    $color-darkgray5,
+    "lightgray":    $color-lightgray,
+    "gray":         $color-gray,
+    "gray2":        $color-gray2,
+    "gray3":        $color-gray3,
+    "gray4":        $color-gray4,
+    "gray5":        $color-gray5,
+    "offwhite":     $color-offwhite,
+    "offwhite2":    $color-offwhite2,
+    "blue1":        $color-blue1,
+    "blue2":        $color-blue2,
+    "blue3":        $color-blue3,
+    "blue4":        $color-blue4
+  ),
+  $theme-colors
+);

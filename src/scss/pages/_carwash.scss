@@ -1,0 +1,68 @@
+.banner {
+	&-sec {
+        .banner-content {
+            &.banner__content--carwash {
+                padding-top: 190px;
+                padding-bottom: 190px;
+                @media (max-width: 1440px) {
+                    padding-top: 160px;
+                    padding-bottom: 160px;
+                }
+                @media (max-width: 1199px) {
+                    padding-top: 120px;
+                    padding-bottom: 120px;
+				}
+				@media (max-width: 991px) {
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                }
+                @media (max-width: 767px) {
+                    padding-top: 210px;
+                    padding-bottom: 50px;
+				}
+			}
+        }
+		
+		&.banner__img--carwash {
+			overflow: hidden;
+			&:before{
+				content: '';
+				background: url(quick_link/carwash/carwash_banner.png) no-repeat;
+				background-size: 100%;
+				width: 934px;
+				height: 658px;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				@media (max-width: 1800px) {
+					width: 720px;
+    				height: 500px;
+				}
+				@media (max-width:1440px) {
+					width: 620px;
+    				height: 430px;
+				}
+				@media (max-width:1280px) {
+					width: 550px;
+    				height: 380px;
+				}
+				@media (max-width: 1199px) {
+					width: 480px;
+    				height: 330px;
+				}
+				@media (max-width: 991px) {
+					width: 380px;
+    				height: 260px;
+				}
+				@media (max-width: 767px) {
+					width: 240px;
+    				height: 170px;
+					left: 50%;
+					top: 70px;
+					right: auto;
+					transform: translateX(-50%);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,224 @@
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: asset-url('SFProDisplay-Light.eot');
+    src: asset-url('SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProDisplay-Light.woff2') format('woff2'),
+        asset-url('SFProDisplay-Light.woff') format('woff'),
+        asset-url('SFProDisplay-Light.ttf') format('truetype'),
+        asset-url('SFProDisplay-Light.svg#SFProDisplay-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: asset-url('SFProDisplay-Regular.eot');
+    src: asset-url('SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProDisplay-Regular.woff2') format('woff2'),
+        asset-url('SFProDisplay-Regular.woff') format('woff'),
+        asset-url('SFProDisplay-Regular.ttf') format('truetype'),
+        asset-url('SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: asset-url('SFProDisplay-Medium.eot');
+    src: asset-url('SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProDisplay-Medium.woff2') format('woff2'),
+        asset-url('SFProDisplay-Medium.woff') format('woff'),
+        asset-url('SFProDisplay-Medium.ttf') format('truetype'),
+        asset-url('SFProDisplay-Medium.svg#SFProDisplay-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: asset-url('SFProDisplay-Semibold.eot');
+    src: asset-url('SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProDisplay-Semibold.woff2') format('woff2'),
+        asset-url('SFProDisplay-Semibold.woff') format('woff'),
+        asset-url('SFProDisplay-Semibold.ttf') format('truetype'),
+        asset-url('SFProDisplay-Semibold.svg#SFProDisplay-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: asset-url('SFProDisplay-Bold.eot');
+    src: asset-url('SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProDisplay-Bold.woff2') format('woff2'),
+        asset-url('SFProDisplay-Bold.woff') format('woff'),
+        asset-url('SFProDisplay-Bold.ttf') format('truetype'),
+        asset-url('SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: asset-url('SFProDisplay-Heavy.eot');
+    src: asset-url('SFProDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProDisplay-Heavy.woff2') format('woff2'),
+        asset-url('SFProDisplay-Heavy.woff') format('woff'),
+        asset-url('SFProDisplay-Heavy.ttf') format('truetype'),
+        asset-url('SFProDisplay-Heavy.svg#SFProDisplay-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: asset-url('SFProText-Light.eot');
+    src: asset-url('SFProText-Light.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProText-Light.woff2') format('woff2'),
+        asset-url('SFProText-Light.woff') format('woff'),
+        asset-url('SFProText-Light.ttf') format('truetype'),
+        asset-url('SFProText-Light.svg#SFProText-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: asset-url('SFProText-Regular.eot');
+    src: asset-url('SFProText-Regular.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProText-Regular.woff2') format('woff2'),
+        asset-url('SFProText-Regular.woff') format('woff'),
+        asset-url('SFProText-Regular.ttf') format('truetype'),
+        asset-url('SFProText-Regular.svg#SFProText-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: asset-url('SFProText-Medium.eot');
+    src: asset-url('SFProText-Medium.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProText-Medium.woff2') format('woff2'),
+        asset-url('SFProText-Medium.woff') format('woff'),
+        asset-url('SFProText-Medium.ttf') format('truetype'),
+        asset-url('SFProText-Medium.svg#SFProText-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: asset-url('SFProText-Semibold.eot');
+    src: asset-url('SFProText-Semibold.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProText-Semibold.woff2') format('woff2'),
+        asset-url('SFProText-Semibold.woff') format('woff'),
+        asset-url('SFProText-Semibold.ttf') format('truetype'),
+        asset-url('SFProText-Semibold.svg#SFProText-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: asset-url('SFProText-Bold.eot');
+    src: asset-url('SFProText-Bold.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProText-Bold.woff2') format('woff2'),
+        asset-url('SFProText-Bold.woff') format('woff'),
+        asset-url('SFProText-Bold.ttf') format('truetype'),
+        asset-url('SFProText-Bold.svg#SFProText-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: asset-url('SFProText-Heavy.eot');
+    src: asset-url('SFProText-Heavy.eot?#iefix') format('embedded-opentype'),
+        asset-url('SFProText-Heavy.woff2') format('woff2'),
+        asset-url('SFProText-Heavy.woff') format('woff'),
+        asset-url('SFProText-Heavy.ttf') format('truetype'),
+        asset-url('SFProText-Heavy.svg#SFProText-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.fs {
+    &-12{font-size:12px !important;}
+    &-13{font-size:13px !important;}
+    &-14{font-size:14px !important;}
+    &-15{font-size:15px !important;}
+    &-16{font-size:16px !important;}
+    &-18{font-size:18px !important;}
+    &-20{font-size:20px !important;}
+    &-24{font-size:24px !important;}
+    &-30{font-size:30px !important;}
+}
+
+
+$font-size: () !default;
+$font-size: map-merge(
+  (
+    "10":    0.625rem,
+    "11":    0.6875rem,
+    "12":    0.75rem,
+    "13":    0.8125rem,
+    "14":    0.875rem,
+    "15":    0.9375rem,
+    "16":    1rem,
+    "17":    1.0625rem,
+    "18":    1.125rem,
+    "19":    1.1875rem,
+    "20":    1.25rem,
+    "22":    1.375rem,
+    "24":    1.5rem,
+    "26":    1.625rem,
+    "28":    1.75rem,
+    "30":    1.875rem,
+    "32":    2rem,
+    "34":    2.125rem,
+    "36":    2.25rem,
+    "48":    3rem,
+    "52":    3.25rem,
+    "58":    3.625rem,
+    "64":    4rem,
+    "72":    4.5rem,
+),
+  $font-size
+);
+
+$font-weight: () !default;
+$font-weight: map-merge(
+  (
+    "300":    300,
+    "400":    400,
+    "500":    500,
+    "600":    600,
+    "700":    700,
+    "900":    900,
+  ),
+  $font-weight
+);
+
+@each $fw-weight, $value in $font-weight{
+    @include font-weight(".fw-#{$fw-weight}", $value);
+}
+
+@each $fz-size, $value in $font-size{
+    @include font-size(".fz-#{$fz-size}", $value);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'SF Pro Display';  
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 34px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 18px;
+}
+ 

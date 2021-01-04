@@ -1,0 +1,89 @@
+.banner-sec  {
+	&.banner-page-five{
+		padding-bottom: 100px;
+		@media (max-width:767px) {
+			padding-bottom: 50px;
+		}
+		.banner-content-home {
+		    padding-bottom: 50px;
+		    .banner-img {
+				margin-top: -80px;
+				@media (max-width:1440px) {
+					margin-top: -40px;
+				}
+				@media (max-width:991px) {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}
+
+
+.payment-img  {
+	margin-left: 360px;
+	@media (max-width:1440px) {
+		margin-left: 120px;
+	}
+	@media (max-width:1366px) {
+		margin-left: 70px;
+	}
+	@media (max-width:1200px) {
+		margin-left: 0;
+		text-align:center;
+	}
+}
+
+
+.column-box {
+	img {
+		width: 100%;
+	}
+	h4 {
+		font-size: 48px;
+		@media (max-width:1440px) {
+			font-size: 38px;
+		}
+		@media (max-width:991px) {
+			font-size: 28px;
+		}
+		@media (max-width:767px) {
+			font-size: 20px;
+		}
+	}
+	p {
+		font-family: 'SF Pro Display';
+		font-size: 17px;
+		@media (max-width:767px) {
+			font-size: 16px;
+		}
+	}
+	&.store-info {
+		h4 {
+			@media (max-width:767px) {
+				text-align: center;
+			}
+		}
+		p {
+			padding-right: 130px;
+			@media (max-width:1440px) {
+				padding-right: 80px;
+			}
+			@media (max-width:991px) {
+				padding-right: 0;
+			}
+			@media (max-width:767px) {
+				text-align: center;
+			}
+		}
+	}
+	.column-desc-height {
+		min-height: 75px;
+		@media (max-width:991px) {
+			min-height: 120px;
+		}
+		@media (max-width:767px) {
+			min-height: auto;
+		}
+	}
+}

@@ -1,0 +1,134 @@
+$color-blue1: #007aff;
+.banner {
+  &-sec {
+        .banner-content {
+            &.banner__content--casestudydetail {
+                padding-top: 150px;
+                padding-bottom: 150px;
+                
+                @media (max-width: 1440px) {
+                    padding-top: 120px;
+                    padding-bottom: 120px;
+                }
+                @media (max-width: 991px) {
+                    padding-top: 80px;
+                    padding-bottom: 80px;
+                }
+                @media (max-width: 767px) {
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                }
+                .banner-sub-title{
+                    font-size: 34px;
+          line-height: 38px;
+                    @media (max-width: 1440px) {
+            font-size: 30px;
+            line-height: 34px;
+          }
+                    @media (max-width: 991px) {
+            font-size: 22px;
+            line-height: 28px;
+          }
+          @media (max-width: 767px) {
+            font-size: 19px;
+          }
+                }
+            }
+        }
+  }
+}
+
+.testimonial-detail {
+   .study-slider-img {
+        .play-btn {
+            width: 80px;
+            height: 80px;
+            left: 30px;
+            bottom: 30px;
+            @media (max-width: 991px) {
+                width: 60px;
+                height: 60px;
+                left: 20px;
+                bottom: 20px;
+            }
+            @media (max-width: 767px) {
+                width: 45px;
+                height: 45px;
+            }
+            i {
+                font-size: 30px;
+                @media (max-width: 991px) {
+                    font-size: 24px;
+                }
+                @media (max-width: 767px) {
+                    font-size: 18px;
+                }
+            }
+        }
+    } 
+
+    .testimonial-info {
+        .name-title {
+            font-family: 'SF Pro Text';
+            font-size: 34px;
+            font-weight: 400;
+            @media (max-width: 991px) {
+                font-size: 28px;
+            }
+            @media (max-width: 767px) {
+                font-size: 22px;
+            }
+            span {
+                font-weight: 600;
+            }
+        }
+        .date-area {
+            font-size: 21px;
+            margin-bottom: 30px;
+            @media (max-width: 991px) {
+                font-size: 19px;
+            }
+            @media (max-width: 767px) {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+        }
+        .test-desc {
+            font-size: 19px;
+            @media (max-width: 991px) {
+                font-size: 17px;
+            }
+            @media (max-width: 767px) {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.play-case-study {
+        background-color: $color-blue1;
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 280px;
+        bottom: 200px;
+        @media (max-width: 1199px) {
+          width: 35px;
+          height: 35px;
+        }
+        &:hover {
+          background-color: #1786ff;
+        }
+        i {
+          font-size: 20px;
+          color: #fff;
+          @media (max-width: 1199px) {
+            font-size: 15px;  
+          }
+        }
+      }
+    

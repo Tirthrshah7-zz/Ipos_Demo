@@ -1,0 +1,39 @@
+.terms-conditions {
+	&-sec {
+		margin-top: 48px;
+		padding-top: 80px;
+		padding-bottom: 60px;
+		@media (max-width: 767px) {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		hr {
+			border-color: rgba(128,128,128,0.15);
+		}
+	}
+
+	&-info {
+		margin-bottom: 30px;
+		&:last-child {
+			margin-bottom: 0;	
+		}
+		.terms-title {
+			font-size: 24px;
+			@media (max-width: 767px) {
+				font-size: 20px;	 
+			}
+		}
+		.terms-desc {
+			font-family: 'SF Pro Display';
+			font-size: 17px;
+			@media (max-width: 767px) {
+				font-size: 16px;	 
+			}
+			.terms-link {
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

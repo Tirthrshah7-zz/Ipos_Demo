@@ -1,0 +1,129 @@
+.banner {
+  &-sec {
+        .banner-content {
+            &.banner__content--account___integration {
+                padding-top: 200px;
+                padding-bottom: 200px;
+                @media (max-width: 1800px) {
+                    padding-top: 120px;
+                    padding-bottom: 100px;
+                }
+
+                @media (max-width:1600px) {
+                    padding-top: 100px;
+                }
+                @media (max-width:1280px) {
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                }
+                @media (max-width: 991px) {
+                    padding-top: 50px;
+                    padding-bottom: 50px
+                }
+                @media (max-width: 767px) {
+                    padding-top: 200px;
+                    padding-bottom: 50px;
+                }
+                
+                .banner-sub-title{
+                    font-family: 'SF Pro Display';
+                    font-size: 34px;
+                    line-height: 38px;
+                    @media (max-width: 991px) {
+                        font-size: 22px;
+                        line-height: 22px;
+                    }
+                    @media (max-width: 767px) {
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+    
+    &.banner__img--account___integration {
+            overflow: hidden;
+            
+      &:before{
+                
+                content: '';
+        background: { image: asset-url("/assets/features/Account_Integration/Account_Integration_banner.png"); }
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 1186px;
+        height: 629px;
+        position: absolute;
+        right: 20px;
+        bottom: 35px;
+        @media (max-width: 1800px) {
+            right: 81px;
+            width: 990px;
+            height: 600px;
+            bottom: -46px;
+        }
+        @media(max-width:1600px){
+            right: 10px;
+            bottom: -46px;
+        }
+        @media (max-width: 1440px) {
+            width: 900px;
+            height: 470px;
+            bottom: 30px;
+            right: 10px;
+        }
+        @media (max-width:1280px) {
+            width: 800px;
+            height: 420px;
+            bottom: 50px;
+        }
+        @media (max-width: 1199px) {
+            width: 650px;
+            height: 350px;
+            right: 0;
+            bottom: 80px;
+        }
+        @media (max-width: 991px) {
+            width: 480px;
+            height: 260px;
+        }
+        @media (max-width: 767px) {
+            width: 300px;
+            height: 170px;
+            left: 50%;
+            top: 80px;
+            right: auto;
+            bottom: auto;
+            transform: translateX(-50%);
+        }
+      }
+    }
+  }
+}
+
+.account-integration-benifit-sec{
+    .sub-title-xl {
+        
+        line-height: 40px;
+        @media (max-width: 1199px) {
+            font-size: 22px !important;
+            line-height: 28px;
+        }
+        @media (max-width: 767px) {
+            font-size: 18px !important;
+            line-height: 24px;
+        }
+    } 
+    .book-demo-img {
+        height: 80px;
+        @media (max-width: 991px) {
+            height: 60px;    
+        }
+    }
+    .book-demo-box {
+        .book-demo-title {
+            @media (max-width: 991px) {
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+    } 
+}

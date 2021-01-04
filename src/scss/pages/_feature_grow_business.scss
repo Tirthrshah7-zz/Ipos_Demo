@@ -1,0 +1,205 @@
+.bg-offwhite3{
+    background-color: #f9fafb;
+}
+.banner {
+	&-sec {
+        .banner-content {
+            &.banner__content--grow_business{
+                padding-top: 200px;
+                padding-bottom: 200px;
+                @media (max-width: 1440px) {
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                }
+                @media (max-width: 1199px) {
+					padding-top: 80px;
+                    padding-bottom: 60px;
+				}
+				@media (max-width: 991px) {
+					padding-top: 50px;
+                    padding-bottom: 50px;
+				}
+                @media (max-width: 767px) {
+                    padding-top: 200px;
+                    padding-bottom: 50px;
+                }
+                
+                .banner-sub-title{
+                    font-family: 'SF Pro Display';
+                    font-size: 34px;
+                    line-height: 38px;
+                    @media (max-width: 1199px) {
+                      font-size: 30px;
+                    }
+					@media (max-width: 991px) {
+						font-size: 24px;
+						line-height: 24px;
+					}
+					@media (max-width: 767px) {
+						font-size: 18px;
+					}
+                }
+
+                .banner-sub-title-24{
+                    font-size: 24px;
+					line-height: 30px;
+					@media (max-width: 991px) {
+						font-size: 20px;
+						line-height: 2px;
+					}
+					@media (max-width: 767px) {
+						font-size: 18px;
+					}
+                }
+            }
+        }
+		
+		&.banner__img--grow_business {
+			overflow: hidden;
+			&:before{
+				content: '';
+                background: { image: asset-url("/assets/features/grow_business/grow_business_Banner.png"); }
+                background-repeat: no-repeat;
+				background-size: 100%;
+				width: 1186px;
+				height: 629px;
+				position: absolute;
+				right: 10px;
+				bottom: 45px;
+				@media (max-width: 1800px) {
+                    
+                    width: 1050px;
+                    height: 629px;
+                    bottom: 10px;
+                    right: 0px;
+
+                }
+
+                @media (max-width:1600px){
+                    
+                    width: 1000px;
+                    right: 1px;
+
+                }
+                @media (max-width: 1440px) {
+                    
+                    width: 850px;
+                    right: -2px;
+                    bottom: -120px;
+				}
+				@media (max-width:1280px) {
+					
+				}
+				@media (max-width: 1199px) {
+                    
+                    width: 670px;
+                    right: 2px;
+                    bottom: -221px;
+				}
+				@media (max-width: 991px) {
+                    width: 480px;
+                    right: 0px;
+                    bottom: 60px;
+                    height: 260px;
+                }
+               
+				@media (max-width: 767px) {
+					width: 280px;
+                    height: 160px;
+                    left: 50%;
+                    top: 80px;
+                    right: auto;
+                    bottom: auto;
+                    transform: translateX(-50%);
+				}
+			}
+		}
+	}
+}
+
+.online_order{
+    .book-demo-box{
+        
+        height: 100%;
+        .book-demo-img {
+            height: 80px;
+            @media (max-width: 767px) {
+                height: 60px;    
+            }
+        }
+        .sub-title{
+            font-size: 22px;
+            line-height: 28px;
+            @media (max-width: 1440px) {
+                font-size: 20px;
+                line-height: 24px;
+            }
+            @media (max-width: 991px) {
+                font-size: 16px;
+                line-height: 24px;
+            }
+            // @media (max-width: 767px) {
+            //     font-size: 17px;
+            //     line-height: 24px;
+            // }
+        }
+    }
+}
+
+.hardware_built {
+    &-sec {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        @media (max-width: 767px) {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+
+    &-info {
+        .main-title {
+            font-size: 44px;
+            @media (max-width: 1440px) {
+                font-size: 34px;
+                line-height: 34px;
+            }
+            @media (max-width: 1199px) {
+                font-size: 26px;
+                line-height: 28px;
+            }
+            @media (max-width: 767px) {
+                font-size: 20px;
+            }
+        }
+
+        .sub-title-xl {
+            @media (max-width: 1440px) {
+                font-size: 26px !important;
+                line-height: 32px;
+            }
+            @media (max-width: 1199px) {
+                font-size: 22px !important;
+                line-height: 28px;
+            }
+            @media (max-width: 767px) {
+                font-size: 16px !important;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+
+.hardware_built{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    @media (max-width: 767px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+ 	.carousel {
+		.carousel-inner {
+			padding-bottom: 30px;
+		}
+	} 
+}

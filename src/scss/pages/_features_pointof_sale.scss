@@ -1,0 +1,171 @@
+.banner {
+	&-sec {
+        .banner-content {
+            &.banner__content--pointsale {
+                padding-top: 260px;
+                padding-bottom: 240px;
+                @media (max-width: 1800px) {
+                    padding-top: 240px;
+                    padding-bottom: 220px;
+                }
+                @media (max-width: 1440px) {
+                    padding-top: 180px;
+                    padding-bottom: 160px;
+                }
+                @media (max-width:1280px) {
+					padding-top: 200px;
+                    padding-bottom: 180px;
+				}
+				@media (max-width: 1199px) {
+					padding-top: 160px;
+                    padding-bottom: 140px;
+				}
+				@media (max-width: 991px) {
+					padding-top: 120px;
+                    padding-bottom: 100px;
+				}
+                @media (max-width: 767px) {
+                    padding-top: 220px;
+                    padding-bottom: 50px;
+                }
+                
+                .banner-sub-title{
+                    font-family: 'SF Pro Display';
+                    font-size: 34px;
+                    line-height: 38px;
+                    @media (max-width: 1199px) {
+                      font-size: 30px;
+                    }
+					@media (max-width: 991px) {
+						font-size: 24px;
+						line-height: 22px;
+					}
+					@media (max-width: 767px) {
+						font-size: 22px;
+					}
+                }
+
+                .banner-sub-title-24{
+                    font-size: 24px;
+					line-height: 30px;
+					@media (max-width: 991px) {
+						font-size: 20px;
+						line-height: 22px;
+					}
+					@media (max-width: 767px) {
+						font-size: 18px;
+					}
+                }
+            }
+        }
+		
+		&.banner__img--pointsale {
+			overflow: hidden;
+			&:before{
+				content: '';
+                background: { image: asset-url("/assets/features/features_pointof_sale/banner_img.png"); }
+                // background: { image: asset-url("/assets/features/features_pointof_sale/point_sale_banner.png"); }
+                background-size: 100%;
+                background-repeat: no-repeat;
+				width: 916px;
+				height: 603px;
+				position: absolute;
+				right: 120px;
+				bottom: 70px;
+				@media (max-width: 1800px) {
+					width: 760px;
+                    height: 510px;
+                    right: 50px;
+                    bottom: 80px;
+                }
+                @media (max-width: 1440px) {
+                    width: 670px;
+                    height: 440px;
+                    right: 100px;
+				}
+				@media (max-width:1280px) {
+                    width: 630px;
+                    height: 420px;
+					right: 50px;
+				}
+				@media (max-width: 1199px) {
+                    width: 530px;
+                    height: 360px;
+                    right: 20px;
+				}
+				@media (max-width: 991px) {
+					width: 400px;
+                    height: 280px;
+				}
+				@media (max-width: 767px) {
+					width: 260px;
+                    height: 180px;
+					left: 50%;
+					top: 70px;
+					right: auto;
+					bottom: auto;
+					transform: translateX(-50%);
+				}
+			}
+		}
+	}
+}
+
+.point-sale {
+    &-sec {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        @media (max-width: 767px) {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+
+    &-info {
+        .main-title {
+            font-size: 44px;
+            @media (max-width: 1440px) {
+                font-size: 34px;
+                line-height: 34px;
+            }
+            @media (max-width: 1199px) {
+                font-size: 26px;
+                line-height: 28px;
+            }
+            @media (max-width: 767px) {
+                font-size: 20px;
+            }
+        }
+
+        .sub-title-xl {
+            @media (max-width: 1440px) {
+                font-size: 26px !important;
+                line-height: 32px;
+            }
+            @media (max-width: 1199px) {
+                font-size: 22px !important;
+                line-height: 28px;
+            }
+            @media (max-width: 767px) {
+                font-size: 16px !important;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+.inventory-management-sec {
+    height: 810px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    @media (max-width: 991px) {
+        height: 600px;	
+    }
+    @media (max-width: 575px) {
+        height: 440px;	
+    }
+}
+
+.cash-management-sec {
+    padding-bottom: 30px;
+}

@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Welcome to iPos</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="" />
+	<!-- favicon_icon -->
+	<meta name="description" content="" />
+	<link rel="shortcut icon" type="image/x-icon" href="ipos_images/favicon.ico" />
+	<!-- css main -->
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	<!-- bootstap 4.4.1 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<!-- Header Start -->
+		<header class="header-sec fixed-top bg-darkgray4">
+			<div class="container">
+				<nav class="navbar navbar-expand-md">
+					<button class="navbar-toggler pl-1" type="button" data-toggle="collapse"
+						data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<!-- <span class="navbar-toggler-icon">X</span> -->
+						<span class="sr-only"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="javascript:void(0)" class="navbar-brand ml-lg-0 mr-0">
+						<img src="ipos_images/logo.svg" class="logo-area" alt="" />
+					</a>
+					<a href="javascript:void(0)"
+						class="nav-link fz-15 border-rd-50 bg-blue3 text-white px-sm-3 px-2 py-1 fw-300 get-started-btn d-md-none d-block">Get
+						Starteds</a>
+					<!-- <div class="nav__bag--mobile dropdown">
+                        <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown"><img src="images/cart.png" alt="" /></a>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item bag" href="#">Bag</a>
+                        <a class="dropdown-item orders" href="#">Orders</a>
+                        <a class="dropdown-item account" href="#">Account</a>
+                        <a class="dropdown-item signin" href="#">Sign in</a>
+                    </div>
+                    </div> -->
+					<div class="collapse navbar-collapse pt-2" id="navbarCollapse">
+						<ul
+							class="navbar-nav ml-md-5 p-md-0 p-4 w-100 fz-15 navbar-dropdown justify-content-between d-flex align-items-start align-items-md-center justify-content-between">
+							<li class="nav-item active">
+								<a href="" class="nav-link fz-15 text-offwhite2 fw-300">Station</a>
+							</li>
+							<li class="nav-item ssd">
+								<a href="canvas.html" class="nav-link fz-15 text-offwhite2 fw-300">Portable</a>
+							</li>
+							<li class="nav-item">
+								<a href="index.html" class="nav-link fz-15 text-offwhite2 fw-300">Mobile</a>
+							</li>
+							<li class="nav-item">
+								<a href="javascript:void(0)" class="nav-link fz-15 text-offwhite2 fw-300">Eatszz
+									App</a>
+							</li>
+							<li class="nav-item">
+								<a href="javascript:void(0)" class="nav-link fz-15 text-offwhite2 fw-300">Kiosk</a>
+							</li>
+							<li class="nav-item offer-nav d-md-block d-none">
+								<a href="javascript:void(0)"
+									class="nav-link fz-15 border-rd-50 bg-blue3 text-white px-3 py-1 fw-300 get-started-btn">Get
+									Started</a>
+							</li>
+							<li class="nav-item">
+								<a href="javascript:void(0)" class="nav-link fz-15 text-offwhite2 fw-300">Log
+									In</a>
+							</li>
+							<!-- <li class="nav-item nav__bag--desktop dropdown">
+                                <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown"><img src="images/cart.png" alt="" /></a>
+                                <div class="dropdown-menu">
+                                <a class="dropdown-item bag" href="#">Bag</a>
+                                <a class="dropdown-item orders" href="#">Orders</a>
+                                <a class="dropdown-item account" href="#">Account</a>
+                                <a class="dropdown-item signin" href="#">Sign in</a>
+                            </div>
+                            </li> -->
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- / Header end -->
+
+		<main class="main-content bg-darkgray4 mt-5 ">
+
+			<!-- station_sec -->
+			<section class="station-sec pt-4 pb-5">
+				<div class="container-md">
+					<div class="row">
+						<div class="col-12 text-center">
+							<h2 class="fz-52 station-title fw-700 mb-0">A truly free invitation only POS
+								that
+								ACTUALLY encourages you to never pay ANY fees </h2>
+							<p class="fz-52 station-title  fw-700 lh-12 my-1 lh-12"> Even the HIDDEN ones
+							</p>
+							<p class="fz-36 fw-600 invitation text-gray4 mb-2 lh-12 mb-3"> Invitation Only
+							</p>
+							<div class="py-1">
+								<a href="#" class="btn-blue fz-15 px-3 py-2 border-rd-30">Apply For
+									Invitation</a>
+							</div>
+						</div>
+					</div>
+					<div class="row station_items_img">
+						<div class="col-12 pt-2 text-center">
+							<!-- <img src="ipos_images/frame_images/station_.gif" alt="station"
+								class="img-fluid station-img" /> -->
+							<canvas id="hero-lightpass2"></canvas>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- face_scanner -->
+			<section class="py-md-5 py-4 ">
+				<div class="container">
+					<div class="row align-items-center face-scanner">
+						<div class="col-12 my-3 text-center">
+							<h2 class="title-text fw-700 fz-72 title-main mb-2 text-left">
+								Secure your Business with <br class="d-none d-sm-block" />
+								Facial Recognition
+							</h2>
+							<p class="text-white fz-34 sub-header-main my-3 text-left face-text">Secure
+								login
+								using Facial ID</p>
+							<!-- <img id="myimg" class="img-fluid max-img mx-auto"
+								src="ipos_images/frame_images/face_id.gif" /> -->
+							<canvas id="hero-lightpass1"></canvas>
+							<audio src="audio/notification.mp3" preload="auto" id="sunny"></audio>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<style>
+				canvas {
+					width: 100% !important;
+					height: 100% !important;
+					max-width: 850px !important;
+					margin: auto;
+				}
+			</style>
+			<!-- ipos_experience -->
+			<section class="py-md-5 py-4" id="pass-id">
+				<div class="container">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-lg-7 text-center my-4">
+							<!-- <img src="ipos_images/frame_images/ipos_experience.gif" alt=""
+								class="img-fluid max-img pass-img" /> -->
+							<canvas id="hero-lightpass">
+						</div>
+						<div class="col-lg-5">
+							<h2 class="fz-58 title-md-main">Let’s take a look on how
+								iPos Simplified the POS experience
+							</h2>
+							<p class="text-gray4 sub-inner-title fz-28 fw-600" id="workflow">
+								A Simple Workflow that can be Used with minimal or no training.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Type Of Business -->
+			<div class="bg-darkgray5 type_business">
+				<h2 class="fz-72 title-main fw-600 pt-md-5 pt-md-4 pt-3 text-center ">Types of Businesses <br>
+					we support</h2>
+
+				<!-- Restaurant -->
+				<section class="type_Sec">
+					<div class="container-fluid">
+						<div
+							class=" row justify-content-end align-items-center py-4 py-lg-0 flex-column-reverse flex-lg-row">
+							<div class="col-lg-4 opn">
+								<h3 class="fz-58 title-md-main fw-600 mb-4">
+									<span class="text-gray2"> Restaurant </span> <br />
+									Industry
+								</h3>
+								<p data-splitting class="text-white fz-20 fw-700 mb-3 slide">
+									A POS that understands the demands a restaurant
+									has during these challenging times.
+									<span class="text-gray2">
+										So, we introduced an in-built online ordering,
+										mobile app ordering, delivery service along with advanced
+									</span>
+									contactless payments, table side order tsking with digital menus,
+									and real-time reporting.
+								</p>
+								<a href="" class="text-blue4 fz-17">
+									Learn more <i class="fa fa-angle-right"></i></a>
+							</div>
+							<div class="col-lg-7">
+								<img src="ipos_images/frame_images/busniess/restaurant_ind.png" alt=""
+									class="img-fluid scale-new" />
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Retail -->
+				<section class="type_Sec">
+					<div class="container-fluid">
+						<div
+							class=" row justify-content-end align-items-center py-4 py-lg-0 flex-column-reverse flex-lg-row">
+							<div class="col-lg-4 opn ">
+								<h3 class="fz-58 title-md-main fw-600 mb-4">
+									<span class="text-gray2"> Retail </span><br /> Industry
+								</h3>
+								<p class="text-white fz-20 fw-700 mb-3 slide">
+									Knowing who your customers are and staying in touch
+									with them while giving them the tools to order from
+									your store<span class="text-gray2">
+										via our advanced interactive technologies
+										will surely keep your business ahead of your
+										competitors.
+									</span>
+								</p>
+								<a href="" class="text-blue4 fz-17">
+									Learn more <i class="fa fa-angle-right"></i>
+								</a>
+							</div>
+							<div class="col-lg-7">
+								<img src="ipos_images/frame_images/busniess/retail_ind.png" alt=""
+									class="img-fluid scale-new" />
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!--Drive -->
+				<section class="type_Sec">
+					<div class="container-fluid">
+						<div
+							class=" row justify-content-end align-items-center py-4 py-lg-0 flex-column-reverse flex-lg-row">
+							<div class="col-lg-4 opn ">
+								<h3 class="fz-58 title-md-main fw-600 mb-4">
+									<span class="text-gray2"> Drive </span> <br />
+									Through Industry
+								</h3>
+								<p class="text-white fz-20 fw-700 mb-3 slide">
+									Engage your clients while rewarding and getting to
+									know them.<span class="text-gray2">
+										Make them a part of your family while
+										staying ahead of your competitors with our live digital
+										interactive cloud displays </span>
+								</p>
+								<a href="" class="text-blue4 fz-17">
+									Learn more <i class="fa fa-angle-right"></i></a>
+							</div>
+							<div class="col-lg-7">
+								<img src="ipos_images/frame_images/busniess/drive_through.png" alt=""
+									class="img-fluid scale-new" />
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Food -->
+				<section class="type_Sec">
+					<div class="container-fluid">
+						<div
+							class=" row justify-content-end align-items-center py-4 py-lg-0 flex-column-reverse flex-lg-row">
+							<div class="col-lg-4 opn">
+								<h3 class="fz-58  title-md-main fw-600 mb-4">
+									<span class="text-gray2"> Food Truck </span>
+									<br />
+									Industry
+								</h3>
+								<p class="text-white fz-20 fw-700 mb-3 slide">
+									Accept payments anywhere with our mobile
+									<span class="text-gray2">
+										POS that connects via wifi and LTE
+									</span>
+								</p>
+								<a href="#" class="text-blue4 fz-17">
+									Learn more <i class="fa fa-angle-right"></i></a>
+							</div>
+							<div class="col-lg-7">
+								<img src="ipos_images/frame_images/busniess/foodtruck_ind.png" alt=""
+									class="img-fluid scale-new" />
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+
+			<!-- kitchen sec -->
+			<section class="py-4 py-sm-5  kitchne-sec">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-12 text-center mt-sm-5 mt-4 ">
+							<div class="title">
+								<h2 class="fz-72 title-main fw-600">“Fire” Orders to the Kitchen</h2>
+								<p class="text-gray2 fz-28 sub-inner-title fw-500 k_break">
+									Our advanced Interactive systems will make the
+									<br class="d-none d-sm-block" />
+									work flow a breeze
+								</p>
+							</div>
+							<img alt="kitchne" class="img-fluid kds_proccess"
+								src="ipos_images/frame_images/KDS-Process(Blue).gif" />
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- kitchne printer -->
+			<section class="kitchne_printer py-md-5 py-4 position-relative">
+				<div class="container-fluid">
+					<div class="row part-1 align-items-center">
+						<div class="col-12 text-center">
+							<h2 class="fz-58 title-md-main fw-600  w-100 kitchen_sec_title pb-4 pb-lg-0">
+								<span class="text-gray4">What your orders will look like in the</span>
+								<br class="d-sm-block d-none">
+								Kitchen Printer, Display or Both
+							</h2>
+							<img src="ipos_images/frame_images/KDS-ProcessBlue-2 .gif" alt="kitchne_printer"
+								class="img-fluid 1p">
+						</div>
+					</div>
+					<div class="row align-items-center part-2">
+						<div class="col-12 text-center">
+							<img src="" class="img-fluid 2p d-lg-block d-none mx-auto">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- printer-sec -->
+			<section class="printer-sec main-content-sec py-md-5 py-4">
+				<div class="container-fluid">
+					<div class="row" id="">
+						<div class="col-12 text-center">
+							<h2 class="fz-58 title-md-main fw-600">
+								<span class="text-gray4">
+									What to Update the Settings to your way? </span> <br class="d-sm-block d-none">
+								Not a Problem. It’s Simple
+							</h2>
+						</div>
+					</div>
+					<div class="row" id="printer-1">
+						<div class="col-12 text-center">
+							<img src="ipos_images/frame_images/printer__1.gif" alt="kitchne_printer"
+								class="img-fluid printer-1 my-3 my-lg-0">
+							<p class="fz-28 sub-inner-title">Simply update the settings so iPos can work
+								the way it fits
+								best for you
+							</p>
+							<!-- <video src="images/KDS-2/KDS Process-2.mp4"></video> -->
+						</div>
+					</div>
+					<div class="row" id="printer-2">
+						<div class="col-12 text-center">
+							<img src="ipos_images/frame_images/printer__2.gif" alt="kitchne_printer"
+								class="img-fluid printer-2">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="bg-darkgray5">
+				<!-- portable-sec -->
+				<section class="portal-sec bg-darkgray5 main-content-sec py-md-5 py-4">
+					<div class="container-fluid">
+						<div class="row align-items-end">
+							<div class="col-12 text-center my-sm-5 my-4">
+								<h2 class="fz-72 title-main fw-600">Portable</h2>
+								<p class="text-gray2 fz-28 sub-inner-title fw-500 mb-0">
+									Looking for a portable WIFI/LTE Ordering Solution?
+									<br class="d-none d-sm-block"> We Got you Covered.
+								</p>
+							</div>
+							<div class="col-md-4 text-center my-5 my-md-0">
+								<img src="ipos_images/frame_images/protal/place_order.png" alt="" class="img-fluid">
+								<p class="fz-28 sub-inner-title fw-600 mb-0">Place Order</p>
+							</div>
+							<div class="col-md-5 text-center  my-5 my-md-0">
+								<img src="ipos_images/frame_images/protal/pay_bill.png" alt="" class="img-fluid">
+								<p class="fz-28 sub-inner-title fw-600 mb-0">Pay Bill</p>
+							</div>
+							<div class="col-md-3 text-center mt-5 my-md-0">
+								<img src="ipos_images/frame_images/protal/received_Receipt.png" alt=""
+									class="img-fluid">
+								<p class="fz-28 sub-inner-title fw-600 mb-0">Receive Receipts</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- eats_mobile -->
+				<section class="bg-darkgray5 py-md-5 py-4 eats-max-sec">
+					<div class="container-lg">
+						<div class="row justify-content-center align-items-center">
+							<div class="col-12 mb-3">
+								<div
+									class="d-flex align-items-center justify-content-center flex-wrap flex-column flex-sm-row my-4">
+									<img src="ipos_images/frame_images/eats/eats_logo.png" alt="logo"
+										class="img-fluid logo-max">
+									<span class="fz-72 title-main fw-600 pl-3 m-0 pt-sm-0 pt-2"> Mobile
+										App</span>
+								</div>
+							</div>
+							<div class="col-md-4 col-lg-4 order-1 order-lg-0 my-lg-0 my-4">
+								<h2 class="fz-48 sub-headline fw-600 mb-4">
+									<span class="text-gray2">
+										Get more orders
+										with your</span> iPos Eats Mobile App
+								</h2>
+								<div class="text-white fz-28 sub-inner-title fw-500 mb-3">
+									Now you can give a simplified
+									ordering solution to <span class="text-gray2 text eats_mob_text">
+										your valued clients which is truly free of fees.
+									</span>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5 text-center">
+								<img src="ipos_images/frame_images/Eats_Mobile.gif" alt="" class="img-fluid eats-max">
+							</div>
+							<div class="col-md-6 col-lg-3 eats_text position-relative mt-3 mt-lg-0 order-1 order-md-0">
+								<p class="p1p fz-28 eats_m0b_para mb-2">Open our
+									Eats App in
+									your mobile.</p>
+								<p class="p2p fz-28 text-gray4 eats_m0b_para mb-2">Choose your
+									location and open
+									the restaurant
+									menu of your
+									choice.</p>
+								<p class="p3p fz-28 eats_m0b_para mb-2">Select the items
+									you needed and
+									add them in to
+									the cart</p>
+								<p class="p4p fz-28 eats_m0b_para text-gray4 mb-2">Check your
+									delivery address
+									and items in the
+									cart and place
+									the order.</p>
+								<p class="p5p fz-28 eats_m0b_para mb-2">Your order has
+									been placed
+									in just few clicks,
+									Thank you.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- eats_web -->
+				<section class="bg-darkgray5 py-md-5 py-4 eats_Website-sec">
+					<div class="container-fluid">
+						<div class="row justify-content-center align-items-center">
+							<div class="col-12 eats_logo mb-3 mb-lg-2">
+								<div
+									class="d-flex align-items-center justify-content-center flex-wrap flex-column flex-sm-row mt-1 my-lg-0 my-3">
+									<img src="ipos_images/frame_images/eats/eats_logo.png" alt="logo"
+										class="img-fluid logo-max">
+									<span class="fz-72 title-main fw-600 pl-3 m-0 pt-sm-0 pt-2">Website</span>
+								</div>
+							</div>
+							<div class="col-lg-8 pl-0">
+								<img src="ipos_images/frame_images/eats/eats_web.png" alt=""
+									class="img-fluid eats_Website">
+							</div>
+							<div class="col-lg-4 my-4 my-lg-0">
+								<h2 class="fz-48 sub-headline w-600 mb-4">
+									<span class="text-gray4">
+										Sync your own online
+										menu into your iPos system and</span> give the
+									convenience of placing orders to your clients
+								</h2>
+								<p class="text-white fz-28 sub-inner-title fw-500 mb-3 text eats_website">
+									The orders will come into your POS and will automatically fire to the
+									kitchen
+									printer or display
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<!-- customer display -->
+			<section class="bg-darkgray4 py-md-5 py-4" id="customer_display">
+				<div class="container-lg">
+					<div class="row align-items-center justify-content-center">
+						<div class="col-12 text-center">
+							<h2 class="fz-58 title-md-main fw-600 my-4 my-lg-3">
+								<span class="text-gray4">Looking for a Customer Display that </span>
+								<br class="d-sm-block d-none">will engage your clients
+							</h2>
+						</div>
+						<div class="col-lg-4 order-1 order-lg-0 my-4 my-lg-0">
+							<h2 class="fz-48 sub-headline w-600 mb-4">
+								<span class="text-gray4">Customer</span><br>Display
+							</h2>
+							<p class="text-white fz-28 fw-500 sub-inner-title mb-3">
+								Give your clients
+								an interactive
+								check out
+								experience while
+								upselling them. <span class="text-gray2 text cut_display_text">
+									giving them a rewards program and capturing their valuable feedback
+								</span>
+							</p>
+						</div>
+						<div class="col-lg-8 text-center">
+							<img src="ipos_images/frame_images/demo.gif" alt="" class="img-fluid customer_display">
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Loyalty Program -->
+			<section class="bg-darkgray4 py-md-5 py-4">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-12 text-center my-sm-5 my-4">
+							<h2 class="fz-72 title-main fw-600">Looking for a Loyalty Program?</h2>
+							<p class="text-gray2 fz-28 sub-inner-title fw-500">
+								With your iPos loyalty program not only can you give your clients rewards<br
+									class="d-none d-sm-block">
+								you can also engage them via the iPos Eats app </p>
+						</div>
+					</div>
+					<div class="row align-items-center" id="new_way_sec">
+						<div class="col-md-6 text-center">
+							<h2 class="fz-48 sub-headline w-600 mb-5">
+								<span class="text-gray4">
+									Old Way </span><br>of Loyalty Program
+							</h2>
+							<img src="ipos_images/frame_images/Loyalty-Notification/old.png" alt="old "
+								class="img-fluid mt-3">
+						</div>
+						<div class="col-md-6 ">
+							<img src="ipos_images/frame_images/Loyalty-Notification/1 (1).gif" alt=""
+								class="img-fluid new_way">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="bg-darkgray5">
+				<!-- imenu gallery -->
+				<section class="bg-darkgray5 py-md-5 py-4" id="imenu">
+					<div class="container-fluid">
+						<div class="row justify-content-center align-items-center">
+							<div class="col-12 text-center my-sm-5 my-4">
+								<h2 class="fz-58 title-md-main fw-600">
+									<span class="text-gray4">iMenu Gallery
+									</span><br>With iMenu gallery now you can
+								</h2>
+							</div>
+							<div class="col-lg-4 col-xl-3 my-3 my-lg-0 order-1 order-lg-0">
+								<h2 class="fz-48 sub-headline fw-600 "><span class="text-gray4">Customer</span>
+									<br>
+									Display
+								</h2>
+								<p class="fz-28 sub-inner-title fw-500">Increase your sales, Upsell
+									your menu items and give
+									the opportunity for your
+									serves to double their tips
+									with your iPos advanced
+									digital menu gallery </p>
+							</div>
+							<div class="col-lg-7 col-sm-11 col-xl-7 text-center mt-4 mt-md-0">
+								<img src="ipos_images/frame_images/menu.gif" alt="imenu" class="imenu">
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- payment solution -->
+				<section class="bg-darkgray5 py-4 py-sm-5 payment_mobile">
+					<div class="container-fluid">
+						<div class="row justify-content-center">
+							<div class="col-12 text-center mt-4 mobile-payment-title">
+								<h2 class="fz-72 title-main fw-600"><span class="text-gray4">Looking for a
+										Mobile App
+									</span> <br>
+									Payment Solution? </h2>
+								<p class="text-gray2 fz-28 sub-inner-title fw-500">
+									We got you covered
+								</p>
+							</div>
+							<div class="col-12 text-center">
+								<img src="ipos_images/frame_images/Mobile-Payment-1.gif" alt="payment-img"
+									class="img-fluid payment-img mobile_payment_new mx-auto">
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- QR Code -->
+				<section class="bg-darkgray5 pt-4 pt-sm-0 qr_code">
+					<div class="container-md">
+						<div class="row align-items-center justify-content-center flex-column-reverse flex-md-row">
+							<div class="col-12 text-center mb-4 order-1 order-md-0">
+								<h2 class="fz-72 title-main fw-600"><span class="text-gray4">Looking for QR code
+									</span>
+									<br>
+									Order Taking?
+								</h2>
+							</div>
+							<div class="col-md-6 col-lg-5">
+								<h2 class="fz-48 sub-headline w-600 mb-2">
+									<span class="text-gray2">
+										Looking for ways to
+										upsell your clients </span> <br class="d-xl-block d-none">
+									and increase sales?
+								</h2>
+								<p class="fz-32 sub-headline-sm fw-500 text-gray5 text qr_text"> My iPos is the
+									solution
+									got you
+									covered.</p>
+								<!-- <p class="fz-32 sub-headline-sm fw-500 text-gray5 text d-lg-none d-block">your valued clients which is
+                                    truly
+                                    free of fees</p> -->
+							</div>
+							<div class="col-md-6 col-lg-7 QR-img text-center">
+								<img src="ipos_images/frame_images/QR.gif" alt="" class="img-fluid qr-img qr_code">
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<!-- point of sale -->
+			<section class="bg-darkgray5  py-md-5 py-4">
+				<div class="container-fluid">
+					<div class="row align-items-center justify-content-center">
+						<div class="col-12 text-center my-5">
+							<h2 class="fz-72 title-main fw-600">iPos Point of Sale Family</h2>
+						</div>
+						<div class="col-12 text-center">
+							<img src="ipos_images/frame_images/Hardwares.png" alt="Hardwares" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<!-- Footer Start -->
+		<footer class="bg-darkgray4 footer-section pt-6 pb-3">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-xl-10 col-lg-9 mb-4 mb-lg-0">
+						<h6 class="footer-title text-offwhite2 fz-13 fw-700">
+							Quick Links
+						</h6>
+						<div class="row">
+							<div class="col-md-3 col-6 mb-2 mb-md-0">
+								<ul class="foot-quick-link fz-13">
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Coffee Shop
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Bar iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Bakery
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Salon
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Retail
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Pizzeria
+											iPos</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-6 mb-2 mb-md-0">
+								<ul class="foot-quick-link fz-13">
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Restuarant
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Business
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Kiosk
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Grocery
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Jewelry
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Food Truck
+											iPos</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-6">
+								<ul class="foot-quick-link fz-13">
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Fashion
+											Boutique iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Hospital
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Conveneince
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Car wash
+											iPos</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Blog</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">About
+											iPos</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-6">
+								<ul class="foot-quick-link fz-13">
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">News and
+											Media</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Careers</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">About Us</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Testimonials</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Terms and
+											Conditions</a>
+									</li>
+									<li class="mb-2">
+										<a class="text-gray" href="javascript:void(0)">Privacy
+											Policy</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-3">
+						<h6 class="footer-title text-darkgray2 fz-13 fw-700 text-offwhite2">
+							Get in Touch
+						</h6>
+						<ul class="foot-address-detail fz-13 text-gray">
+							<li class="mb-2">
+								<span class="fw-500 d-block mb-1">Address</span>
+								4995 NW 72nd Ave<br />
+								#307 Miami, FL 33166
+							</li>
+							<li class="mb-2">
+								<span class="fw-500 d-block">Phone</span>
+								(888) 838 - 6277
+							</li>
+							<li>
+								<span class="fw-500 d-block">Email</span>
+								support@ipointofsale.com
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="">
+							<hr class="border-color-dark" />
+							<p class="fz-13 text-gray">
+								More ways to shop: Find
+								<a href="javascript:;">an iPos Store</a> or
+								<a href="javascript:;">other retailer</a> near you. Or call
+								(305) 877-7967
+							</p>
+							<hr class="border-color-dark" />
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="foot-bottom-area d-lg-flex align-items-center">
+							<div class="united-btn ml-auto order-md-3 mb-3 mb-lg-0">
+								<a href="javascript:void(0)" class="d-flex text-gray fz-13"><img
+										src="ipos_images/frame_images/flag.png" class="mr-1" alt="" /> United
+									States</a>
+							</div>
+							<p class="copy-text order-md-1 mb-2 mb-lg-0 fz-13 text-gray mr-2">
+								&copy 2020 iPos All rights reserved.
+							</p>
+							<ul class="foot-nav d-flex flex-wrap order-md-2 fz-13">
+								<li>
+									<a class="text-gray pr-2 mr-2 border-right" href="javascript:void(0)">Privacy
+										Policy</a>
+								</li>
+								<li>
+									<a class="text-gray pr-2 mr-2 border-right" href="javascript:void(0)">Terms
+										&
+										Conditions</a>
+								</li>
+								<li>
+									<a class="text-gray pr-2 mr-2 border-right" href="javascript:void(0)">Help
+										&
+										Contact</a>
+								</li>
+								<li>
+									<a class="text-gray pr-2 mr-2 border-right" href="javascript:void(0)">Legal</a>
+								</li>
+								<li>
+									<a class="text-gray" href="javascript:void(0)">Site Map
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer End -->
+
+	</div>
+
+	<!-- script js -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+		integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+	<script src="js/scrolltrigger.js"></script>
+
+</body>
+
+</html>

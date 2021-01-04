@@ -1,0 +1,256 @@
+.bg-offwhite3{
+    background-color: #f9fafb;
+}
+
+.banner {
+	&-sec {
+        .banner-content {
+            &.banner__content--app__ordering {
+                padding-top: 135px;
+                padding-bottom: 170px;
+                @media (max-width: 1800px) {
+                }
+
+                @media (max-width:1600px) {
+                   
+                padding-top:130px ;
+                padding-bottom: 130px;
+                }
+                @media (max-width:1440px) {
+                    
+                    padding-top:120px;
+                  
+                }
+                @media (max-width:1280px) {
+                    padding-top: 100px;
+                    padding-bottom: 90px;
+				}
+				@media (max-width: 1199px) {
+					padding-top: 100px;
+                    padding-bottom: 50px;
+				}
+				@media (max-width: 991px) {
+					padding-top: 50px;
+                    padding-bottom: 50px;
+				}
+                @media (max-width: 767px) {
+                    padding-top: 280px;
+                    padding-bottom: 50px;
+                }
+                
+                .banner-sub-title{
+                    font-family: 'SF Pro Display';
+                    font-size: 34px;
+					line-height: 38px;
+					@media (max-width: 991px) {
+						font-size: 22px;
+						line-height: 22px;
+					}
+					@media (max-width: 767px) {
+						font-size: 19px;
+					}
+                }
+                
+                @media (max-width: 991px){
+                    p.sub-title-xl {
+                        font-size: 22px!important;
+                        line-height: 24px;
+                    }
+                }
+
+                @media (max-width: 991px){
+                    p.sub-title-lg {
+                        font-size: 19px!important;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+		
+		&.banner__img--app__ordering {
+            overflow: hidden;
+            
+			&:before{
+                
+                content: '';
+                background: { image: asset-url("/assets/features/app_ordering/app_ordering_banner.png"); }
+                background-repeat: no-repeat;
+				background-size: 100%;
+				width: 740px;
+				height: 704px;
+				position: absolute;
+				right: 230px;
+				bottom: 20px;
+				@media (max-width: 1800px) {
+                    width: 700px;
+                    height: 704px;
+                    right: 160px;
+                }
+                @media(max-width:1600px){
+                    right: 90px;
+                    bottom: -10px;
+            
+                }
+				@media (max-width: 1440px) {
+                    bottom: -50px;
+                    width: 660px;
+                    right: 44px;
+                }
+				@media (max-width:1280px) {
+                   
+                    width: 650px;
+                    bottom: -90px;
+                    
+				}
+				@media (max-width: 1199px) {
+					width: 550px;
+                    height: 580px;
+                    right: 20px;
+                    bottom: -52px;
+                }
+				@media (max-width: 991px) {
+					width: 360px;
+                    height: 330px;
+                    right: 20px;
+                    bottom: 60px;
+                }
+				@media (max-width: 767px) {
+					width: 280px;
+                    height: 250px;
+                    left: 50%;
+                    top: 80px;
+                    right: auto;
+                    bottom: auto;
+                    transform: translateX(-50%);
+				}
+			}
+		}
+	}
+}
+
+.app__ordering-sec{
+    .sub-title-xl {
+        font-family: 'SF Pro Display';
+    }
+    .book-demo-box{
+        height: 100%;
+        .book-demo-img {
+            height: 80px;
+            @media (max-width: 767px) {
+                height: 60px;    
+            }
+        }
+        .sub-title{
+            font-size: 22px;
+           
+            line-height: 28px;
+            @media (max-width: 1440px) {
+                font-size: 20px;
+                line-height: 24px;
+            }
+            @media (max-width: 991px) {
+                font-size: 16px;
+                line-height: 24px;
+            }
+            // @media (max-width: 767px) {
+            //     font-size: 17px;
+            //     line-height: 24px;
+            // }
+        }
+    } 
+}
+
+
+
+.app_order{
+    
+    &-overflow{
+        
+        padding-top: 70px;
+        height: 712px;
+        overflow: hidden;
+        .frequency_img{
+            overflow: hidden;
+            @media (max-width:991px) {
+
+                height: 420px;
+            }
+
+            img {
+                @media (max-width:991px) {
+
+                   width: 300px;
+                    
+
+                }
+            }
+            
+        } 
+        
+    }
+    &-overflow__loyalty{
+        padding-top: 70px;
+       height: 830px;
+        overflow: hidden;
+        
+        .portpolio_img{
+           
+            @media (max-width:991px) {
+              height: 485px;
+              overflow: hidden;  
+            }
+          
+        img{
+              max-width: 100%;
+              height: 758px;
+              @media (max-width:991px)
+               {
+                  height: 640px;
+            }
+          }
+        }
+    }
+    &-sec {
+        padding-top: 80px;
+        padding-bottom: 70px;
+        @media (max-width: 767px) {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+    
+    
+    &-orderingsec {
+        .main-title {
+            font-size: 44px;
+            @media (max-width: 1440px) {
+                font-size: 34px;
+                line-height: 34px;
+            }
+            @media (max-width: 1199px) {
+                font-size: 26px;
+                line-height: 28px;
+            }
+            @media (max-width: 767px) {
+                font-size: 20px;
+            }
+        }
+
+        .sub-title-xl {
+            @media (max-width: 1440px) {
+                font-size: 26px !important;
+                line-height: 32px;
+            }
+            @media (max-width: 1199px) {
+                font-size: 22px !important;
+                line-height: 28px;
+            }
+            @media (max-width: 767px) {
+                font-size: 16px !important;
+                line-height: 22px;
+            }
+        }
+    }
+
+    
+}

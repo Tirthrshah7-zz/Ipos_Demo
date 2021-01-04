@@ -1,0 +1,72 @@
+.banner {
+	&-sec {
+        .banner-content {
+            &.banner__content--business {
+                padding-top: 200px;
+                padding-bottom: 200px;
+                @media (max-width: 1440px) {
+                    padding-top: 150px;
+                    padding-bottom: 150px;
+				}
+				@media (max-width: 1199px) {
+					padding-top: 120px;
+                    padding-bottom: 120px;
+				}
+                @media (max-width: 991px) {
+                    padding-top: 80px;
+                    padding-bottom: 80px;
+                }
+                @media (max-width: 767px) {
+                    padding-top: 270px;
+                    padding-bottom: 50px;
+				}
+            }
+        }
+		
+		&.banner__img--business {
+			overflow: hidden;
+			&:before{
+				content: '';
+				background: url(quick_link/business/business_graph.jpg) no-repeat;
+				background-size: 100%;
+				width: 740px;
+				height: 740px;
+				position: absolute;
+				right: 100px;
+				bottom: 0;
+				@media (max-width: 1800px) {
+					width: 650px;
+					height: 650px;
+					right: 80px;
+				}
+				@media (max-width:1440px) {
+					width: 600px;
+					height: 600px;
+				}
+				@media (max-width:1280px) {
+					width: 550px;
+					height: 550px;
+				}
+				@media (max-width: 1199px) {
+					width: 420px;
+					height: 420px;
+					right: 40px;
+				}
+				@media (max-width: 991px) {
+					width: 380px;
+					height: 380px;
+					right: 20px;
+				}
+				@media (max-width: 767px) {
+					width: 220px;
+    				height: 220px;
+					left: 50%;
+					top: 70px;
+					right: auto;
+					bottom: auto;
+					transform: translateX(-50%);
+				}
+			}
+		}
+	}
+}

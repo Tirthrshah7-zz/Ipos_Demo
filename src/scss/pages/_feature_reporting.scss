@@ -1,0 +1,98 @@
+.banner {
+  &-sec {
+    .banner-content {
+      &.banner__content--reporting {
+        padding-top: 130px;
+        padding-bottom: 143px;
+        @media (max-width: 1800px) {
+          padding-top: 120px;
+          padding-bottom: 100px;
+        }
+
+        @media (max-width: 1600px) {
+          padding-top: 100px;
+        }
+        @media (max-width: 1280px) {
+          padding-top: 100px;
+          padding-bottom: 100px;
+        }
+        @media (max-width: 1199px) {
+          padding-top: 100px;
+          padding-bottom: 100px;
+        }
+        @media (max-width: 991px) {
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
+        @media (max-width: 767px) {
+          padding-top: 200px;
+          padding-bottom: 50px;
+        }
+
+        .banner-sub-title {
+          font-family: "SF Pro Display";
+          font-size: 34px;
+          line-height: 38px;
+          @media (max-width: 991px) {
+            font-size: 22px;
+            line-height: 22px;
+          }
+          @media (max-width: 767px) {
+            font-size: 19px;
+          }
+        }
+      }
+    }
+
+    &.banner__img--reporting {
+      overflow: hidden;
+
+      &:before {
+        content: "";
+        background: { image: asset-url("/assets/features/reporting/reportingMacbook.png"); }
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 1080px;
+        height: 620px;
+        position: absolute;
+        right: 20px;
+        bottom: 40px;
+
+        @media (max-width: 1800px) {
+          width: 850px;
+          height: 440px;
+          right: 10px;
+          bottom: 100px;
+        }
+        @media (max-width: 1440px) {
+          width: 780px;
+          height: 400px;
+        }
+        @media (max-width: 1280px) {
+          width: 650px;
+          height: 350px;
+          bottom: 120px;
+        }
+        @media (max-width: 1199px) {
+          width: 500px;
+          height: 260px;
+          bottom: 180px;
+        }
+        @media (max-width: 991px) {
+          width: 400px;
+          height: 220px;
+          bottom: 150px;
+        }
+        @media (max-width: 767px) {
+          width: 280px;
+          height: 160px;
+          left: 50%;
+          top: 80px;
+          right: auto;
+          bottom: auto;
+          transform: translateX(-50%);
+        }
+      }
+    }
+  }
+}

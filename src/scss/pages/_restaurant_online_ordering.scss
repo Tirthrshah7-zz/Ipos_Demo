@@ -1,0 +1,150 @@
+.banner--online_ordering {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    @media (max-width: 767px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+
+.banner-subtitle-sm {
+    font-family: 'SF Pro Display';
+    font-size: 21px;
+    line-height: 24px;
+    @media (max-width: 1440px) {
+        font-size: 18px;
+    }
+    @media (max-width: 767px) {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    @media (max-width: 360px) {
+        font-size: 14px;
+    }
+}
+
+
+.btn-outline {
+    background-color: transparent;
+    color: $color-darkgray1;
+    border-color: $color-darkgray1;
+    border-width: 2px;
+    min-width: 200px;
+}
+.btn-outline:hover {
+    background-color: $color-darkgray1;
+    color: #fff;
+}
+
+
+.online-ordering-desc {
+    font-family: 'SF Pro Display';
+    font-size: 30px;
+    color: $color-gray2;
+    line-height: 38px;
+    @media (max-width: 1440px) {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    @media (max-width: 1199px) {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    @media (max-width: 767px) {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    @media (max-width: 360px) {
+        font-size: 15px;
+    }
+}
+
+
+.online-ordering-box {
+    border: #ebebec 1px solid;
+    padding: 40px 20px;
+    height: 100%;
+    .ordering-img {
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .ordering-title {
+        font-size: 24px;
+        margin-bottom: 0;
+        @media (max-width:1440px) {
+            font-size: 20px;
+        }
+        @media (max-width:1199px) {
+            font-size: 18px;
+        }
+        @media (max-width:767px) {
+            font-size: 16px;
+        }
+    }
+    .ordering-desc {
+		font-size: 21px;
+        color: $color-gray2;
+        line-height: 32px;
+        margin-top: 15px;
+		@media (max-width:1440px) {
+            font-size: 18px;
+            line-height: 24px;
+  		}
+  		@media (max-width:1199px) {
+            font-size: 16px;
+            line-height: 22px;
+  		}
+  		@media (max-width: 767px) {
+			font-size: 14px;
+			line-height: 18px;	
+		}
+	}
+}
+
+
+.commission-orders {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    @media (max-width: 767px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+
+.customizable-restaurant-sec {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    @media (max-width: 1440px) {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    @media (max-width:1199px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    @media (max-width: 767px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.customizable-box {
+    padding: 50px 20px 20px 20px;
+    height: 100%;
+    @media (max-width: 767px) {
+        padding: 20px;
+        height: auto;
+    }
+    .link-btn {
+        font-size: 21px;
+        @media (max-width: 1199px) {
+            font-size: 18px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+    }
+}

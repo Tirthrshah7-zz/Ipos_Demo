@@ -1,0 +1,72 @@
+.banner {
+	&-sec {
+        .banner-content {
+            &.banner__content--convenience {
+                padding-top: 190px;
+                padding-bottom: 190px;
+                @media (max-width: 1440px) {
+                    padding-top: 180px;
+                    padding-bottom: 180px;
+                }
+                @media (max-width: 991px) {
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                }
+                @media (max-width: 767px) {
+                    padding-top: 200px;
+                    padding-bottom: 50px;
+				}
+			}
+        }
+		
+		&.banner__img--convenience {
+			overflow: hidden;
+			&:before{
+				content: '';
+				background: url(quick_link/convenience/convenience_banner.jpg) no-repeat;
+				background-size: 100%;
+				width: 640px;
+				height: 440px;
+				position: absolute;
+				top: 220px;
+    			right: 250px;
+				@media (max-width: 1800px) {
+					width: 550px;
+					height: 370px;
+					top: 260px;
+					right: 120px;
+				}
+				@media (max-width:1440px) {
+					width: 520px;
+					height: 350px;
+					top: 200px;
+					right: 100px;
+				}
+				@media (max-width:1280px) {
+					width: 500px;
+					height: 340px;
+					right: 50px;
+				}
+				@media (max-width: 1199px) {
+					width: 450px;
+					height: 300px;
+					top: 220px;
+					right: 20px;
+				}
+				@media (max-width: 991px) {
+					width: 350px;
+					height: 240px;
+					top: 180px;
+				}
+				@media (max-width: 767px) {
+					width: 240px;
+    				height: 160px;
+					left: 50%;
+					top: 70px;
+					right: auto;
+					transform: translateX(-50%);
+				}
+			}
+		}
+	}
+}

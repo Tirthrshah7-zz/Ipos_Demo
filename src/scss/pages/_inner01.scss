@@ -1,0 +1,170 @@
+.title-inner {
+	font-family: 'SF Pro Display';
+	font-size: 36px;
+	color: $color-darkgray1;
+	font-weight: bold;
+	line-height: normal;
+	@media (max-width: 1366px) {
+		font-size: 32px;
+	}
+	@media (max-width: 991px) {
+		font-size: 30px;
+	}
+	@media (max-width: 767px) {
+		font-size: 24px;
+	}
+	@media (max-width: 575px) {
+		font-size: 22px;
+	}
+	span {
+		color: $color-gray;
+	}
+}
+
+.ptext { font-size: 16px;}
+.line-height-normal { line-height: normal;}
+.mw-50 {max-width: 72px;}
+.mw-120 {max-width: 120px;}
+.ptext-heading { 
+    font-size: 16px;
+    max-width: 350px;
+    line-height: normal;
+    position: relative;
+    z-index: 1;
+    @media (max-width: 767px) {
+        font-size: 15px;
+        max-width: inherit;
+    }
+}
+
+.width-1798px {
+    max-width: 1798px;
+    margin: auto;
+    width: 100%;
+}
+
+.business-img {
+    position: relative;
+    display: block;
+    height: 65px;
+    img {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        height: 100%;
+    }
+}
+
+.shedule-img {
+    max-width: 815px;
+    margin: auto;
+}
+
+.refund-anywhere {
+  .business-inner-box {
+    .box-img {
+      height: 85px;
+      @media (max-width:767px) {
+        height: 80px;
+      }
+    }
+  }
+}
+
+.point-sales-img {
+  margin-top: -60px;
+  @media (max-width:1200px) {
+    margin-top: -30px;
+  }
+  @media (max-width:767px) {
+    margin-top: 0;
+  }
+}
+
+.inquiry-form .promocode__field {
+  color: black !important;
+  border: #d2d2d2 1px solid;
+}
+.inquiry-form .promocode__field:focus {
+  color: black !important;
+}
+
+.shop4-wrapper {
+  position: relative;
+  &:after {
+    font-family: FontAwesome;
+    content: "\f107";
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    right: -8px;
+    color: $color-blue1;
+    pointer-events: none;
+  }
+}
+
+.shop4__apply {
+  position: absolute;
+  top: 12px;
+  left: 130px;
+  @media (max-width:767px) {
+    top: 15px;
+  }
+  @media (max-width:575px) {
+    left: 80px;
+  }
+}
+.shop4__cancel {
+  position: absolute;
+  left: 250px;
+  top: 12px;
+  @media (max-width:767px) {
+    top: 15px;
+  }
+  @media (max-width: 575px) {
+    left: 170px;
+  }
+}
+
+
+.keep-restaurant-sec {
+    .column-box.store-info p {
+      padding-right: unset !important;
+    }
+}
+
+.business-demand-sec, .find-solution-sec, .business-solution-sec {
+    padding: 100px 0px;
+    @media (max-width:767px) {
+      padding: 50px 0px;  
+    }
+}
+
+.business-solution-sec {
+    .bg-light {
+        padding: 20px;
+        color: #fafafa;
+        @media (min-width: 1200px) {
+            padding: 30px;
+        }
+    }
+    .psection {
+        font-size: 14px;
+        @media (min-width: 1200px) {
+            font-size: 16px;
+        }
+    }
+}
+
+.section-lightfa {
+    padding: 100px 0;
+    background: #fafafa;
+    @media (max-width:767px) {
+      padding: 50px 0px;  
+    }
+}
+
+.point_sales-image {
+    max-width: 970px;
+}
