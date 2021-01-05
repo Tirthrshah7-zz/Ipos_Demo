@@ -202,7 +202,7 @@ function Ipos() {
                     scrollTrigger: {
                         trigger: ".part-1",
                         scrub: 1,
-                        start: "top 7%",
+                        start: "top 5%",
                         end: "+=550%",
                         pin: true,
                     }
